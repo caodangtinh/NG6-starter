@@ -1,8 +1,15 @@
-<nav class="navbar">
-  <div class="logo">
-    <h1><a ui-sref="home">{{ $ctrl.name }}</a></h1>
-  </div>
-  <div class="nav-links">
-    <span><a ui-sref="about">about</a></span>
+<nav class="navbar navbar-default">  
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" ui-sref="home">Entity App</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ui-sref-active="active" ui-sref="home"><a href="">Home</a></li>
+        <li ui-sref-active="active" ui-sref="addEntities"><a href="">Add Entities</a></li>
+        <li ui-sref-active="active" ui-sref="entitiesConnected"><a href="">Entities Connected</a></li>
+      </ul>
+    </div>
   </div>
 </nav>

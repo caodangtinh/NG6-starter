@@ -1,0 +1,33 @@
+.entitiesAddedLink {
+	display: block!important;
+	text-align: left!important;
+}
+
+.glyphicon-plus-added {
+	float: left;
+	margin-top: 2px;
+}
+
+.glyphicon-menu-down, .glyphicon-menu-up {
+	float: right;
+}
+
+.listAdded {
+	width: 300px;
+	list-style: none;
+	background-color: #ffffff;
+	border: 1px solid #d0caca;
+}
+
+.listAdded li {
+	padding: 10px 20px;
+}
+
+div.showLst a {
+	border-bottom: none!important;
+}
+
+div.showLst ul {
+	border-top: none!important;
+	margin-top: -2px;
+}

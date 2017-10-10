@@ -1,0 +1,10 @@
+<ul class="result list-group">
+	<li ng-repeat="entity in vm.entities" ng-click="vm.selectEntity(entity)" class="list-group-item">
+		<image ng-if="entity.status === '1'" src="./images/check_active.png" class="statusImg" />
+		<image ng-if="entity.status === '0'" src="./images/check_inactive.png" class="statusImg" />
+		<div class="entityInfor">
+			<p class="inforNm">{{entity.name}}</p>
+			<p class="inforCar">{{entity.car}}</p>
+		</div>
+	</li>
+</ul>

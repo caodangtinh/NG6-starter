@@ -3,7 +3,11 @@ import uiRouter from 'angular-ui-router';
 import Common from './common/common';
 import Components from './components/components';
 import AppComponent from './app.component';
+
+// import our default styles for the whole application
 import 'normalize.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 angular.module('app', [
     uiRouter,

@@ -1,0 +1,22 @@
+<!-- Navigation bar-->
+<navbar></navbar>
+
+<!-- Main content -->
+<div class="container">
+	<h2>Add entities</h2>
+	<div class="input-group input-group-unstyled-right entitySearchForm">
+		<span class="input-group-addon">
+      		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+		</span>
+		<input type="text" ng-model="vm.searchTxt" ng-change="vm.searchEntity()" class="form-control entitySearch" placeholder="Search Entity">
+		<!--
+		<span class="input-group-addon input-group-addon-unstyled">
+      		<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		</span>
+		-->
+	</div>
+
+	<search-result entities="vm.entityLst"></search-result>
+
+</div>
+<a class="btn btn-primary connectEntitiesBtn" href="javaScript:void(0)" ng-click="vm.connectEntities()" role="button">Connect</a>

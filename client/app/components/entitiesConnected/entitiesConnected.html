@@ -1,0 +1,14 @@
+<!-- Navigation bar-->
+<navbar></navbar>
+
+<!-- Main content -->
+<div class="container" ng-class="vm.showFlg">
+	<a href="javaScript: void(0)" class="entityLink" ng-click="vm.toogleEntitiesLst()">
+    	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;
+		Entities connected ({{vm.totalAdded}})
+		<span class="glyphicon glyphicon-menu-down" ng-if="vm.showLst === 0" aria-hidden="true"></span>&nbsp;
+		<span class="glyphicon glyphicon-menu-up" ng-if="vm.showLst === 1" aria-hidden="true"></span>&nbsp;
+	</a>
+
+	<connected-list connected="vm.entitiesConnected" ng-show="vm.showLst === 1"></connected-list>
+</div>

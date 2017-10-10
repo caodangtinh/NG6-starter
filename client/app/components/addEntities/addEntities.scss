@@ -1,0 +1,66 @@
+.entitySearch {
+	height: 60px!important;
+}
+
+h2 {
+	margin-top: -5px!important;
+}
+  
+.entitySearchForm {
+	width: 50%;
+	margin: 0px auto;
+}
+  
+h2 {
+	text-align: center;
+}
+  
+.result {
+	width: 50%;
+	margin: 0px auto;
+	height: auto;
+}
+  
+@media screen and (max-width: 768px) {
+	.entitySearchForm {
+		width: 100%;
+	}
+
+	.result {
+		width: 100%;
+	}
+}
+  
+.result li {
+	height: 60px;
+	cursor: pointer;
+}
+
+.statusImg {
+	width: 15px;
+	height: 15px;
+	margin-top: 12px;
+	float: left;
+}
+
+.entityInfor {
+	float: left;
+	margin-left: 10px;
+	line-height: 10px;
+	margin-top: 5px;
+}
+
+.inforNm {
+	font-weight: bold;
+}
+
+.inforCar {
+	color: #747474;
+	font-size: 12px;
+}
+
+.connectEntitiesBtn {
+	display: block!important;
+	margin: 25px auto;
+	width: 150px;
+}
